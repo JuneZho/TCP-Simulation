@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=NetworkLayer
+comment1.params=server
+comment1.target=NetworkLayer(boolean)
+comment2.params=
+comment2.target=void\ set_experiment()
+comment3.params=transmission_delay
+comment3.target=void\ set_transmission_delay(double)
+comment4.params=propogation_delay
+comment4.target=void\ set_propogation_delay(long)
+comment5.params=server\ transmission_delay\ propogation_delay
+comment5.target=NetworkLayer(boolean,\ double,\ long)
+comment6.params=payload
+comment6.target=double\ send(byte[])
+comment7.params=
+comment7.target=byte[]\ receive()
+numComments=8

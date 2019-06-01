@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ServerApp
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=transmission_delay\ propogation_delay
+comment2.target=void\ run(double,\ long)
+comment3.params=
+comment3.target=void\ work()
+comment3.text=\n\ \ \ \ public\ void\ run(){\n\ \ \ \ transportLayer\ \=\ new\ TransportLayer(true,\ transmission_delay,\ propogation_delay);\n\ \ \ \ work();\n\ \ \ \ }\n
+comment4.params=client_isn
+comment4.target=double\ handShake_2(int)
+comment5.params=data\ version\ state\ connection\ date\ server\ last_modified\ length
+comment5.target=HTTP\ formHTTP(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.text=\n\ form\ a\ http\ with\ given\ data\n\ @param\ data\n\ @param\ version\n\ @param\ state\n\ @param\ connection\n\ @param\ date\n\ @param\ server\n\ @param\ last_modified\n\ @param\ length\n\ @return\n
+comment6.params=title
+comment6.target=java.lang.String\ loadFile(java.lang.String)
+comment6.text=\n\ load\ the\ file\ that\ client\ requested\ from\ the\ database\n\ @param\ title\n\ @return\n
+comment7.params=byteArray
+comment7.target=void\ respond(byte[])
+comment7.text=\n\ respond\ to\ the\ http\ that\ client\ send\n\ @param\ \ request\ http\ that\ client\ send\ \n
+comment8.params=filename
+comment8.target=java.lang.String\ getLastModified(java.lang.String)
+comment8.text=\n\ get\ last\ modified\ date\ of\ a\ given\ file\n\ @param\ filename\n\ @return\ the\ string\ of\ that\ date\n
+comment9.params=
+comment9.target=java.lang.String\ getDate()
+comment9.text=\n\ get\ the\ sending\ date,\ which\ is\ the\ current\ date\n\ @return\ the\ string\ of\ that\ date\n
+numComments=10
